@@ -1,21 +1,9 @@
 
   /* Page background */
-body {
-                  background-image: url("https://iso.500px.com/wp-content/uploads/2014/07/big-one.jpg");
-                  background-size: cover;
-                  background-repeat: no-repeat;
-                  background-position: center;
-                  color: white;
-                  font-family: 'Arial', sans-serif;
-                  text-align: center;
-                  height: 100vh;
-                  margin-top: 50px;
-                  display: flex;
-                  align-items: center;
-                  flex-direction: column;
-                  position: relative;
-                  margin: 0%;
-                  padding: 0%;
+
+                *{
+                  box-sizing: border-box;
+                  font-family: Verdana, Geneva, Tahoma, sans-serif;
                 }
 
                 /* Semi-transparent overlay for better text visibility */
@@ -34,7 +22,9 @@ body {
                 #title {
                   width: 100%;
                   text-align: center;
-                  transition: opacity 1s ease
+                  transition: opacity 1s ease;
+                  padding-top: 200px;
+                  
                 }
 
                 h1 {
@@ -71,8 +61,23 @@ body {
                   transition: opacity 1.5s ease;
                 }
 
+
+                html, body {
+                  margin: 0px;
+                  padding: 0px;
+
+                }
+
                 .main-section {
-                  border: solid white 1px;
                   width: 100vw;
                   height: 100vh;
+                  background-size: cover;
+                }
+
+                #title {
+                  background-position: center top;
+                  background-image: url("../images/snow.avif");
+                  background-size: cover;
+                  text-align: center;
+                  padding-top: 200px;
                 }
