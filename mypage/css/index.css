@@ -20,6 +20,7 @@
                   width: 100vw;
                   height: 100vh;
                   background-size: cover;
+                  padding: 25px;
                 }
 
                 
@@ -30,6 +31,14 @@
                   background-image: url("../images/snow.avif");
                   background-position: center top;
                  
+                }
+
+                .title-section-header {
+                  margin-bottom: -5px;
+                }
+
+                .title-section-subtitle {
+                  margin-bottom: 40px;
                 }
 
                 .title-section-button {
