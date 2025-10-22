@@ -1,0 +1,31 @@
+                #title {
+                  color: var(--titlesectionprimarycolour);
+                  text-align: center;
+                  padding-top: 200px;
+                  background-image: url("../images/snow.avif");
+                  background-position: center top;
+                 
+                }
+
+                .title-section-header {
+                  margin-bottom: -5px;
+                }
+
+                .title-section-subtitle {
+                  margin-bottom: 40px;
+                }
+
+                .title-section-button {
+                  color: var(--titlesectionprimarycolour);
+                  border: solid var(--titlesectionprimarycolour) 1px;
+                  padding: 15px 20px;
+                  background-color: transparent;
+                  border-radius: 5px;
+                }
+                
+
+                .title-section-button:hover {
+                  background-color: var(--titlesectionprimarycolour);
+                  color: var(--titlesectionsecondarycolour);
+                  cursor: pointer;
+                }
