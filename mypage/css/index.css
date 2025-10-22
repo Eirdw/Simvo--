@@ -9,6 +9,8 @@
                   --titlesectionprimarycolour: white ;
                   --titlesectionsecondarycolour: rgb(116, 156, 194) ;
                   --titlesectiontetiarycolour: rgb(241, 211, 206) ;
+                  --titlesectionprivatecolour: rgb(107, 150, 191) ;
+
                 }
 
                html, body {
